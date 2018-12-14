@@ -8,6 +8,9 @@ public abstract class Car {
         this.brand = brand;
     }
 
+    public String getBrand() {
+        return brand;
+    }
 
     public abstract String drive();
 }

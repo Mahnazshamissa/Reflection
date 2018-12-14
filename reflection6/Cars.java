@@ -8,12 +8,7 @@ import java.util.Random;
 public class Cars {
 
 
-   /* private static List<Car> brands= Arrays.asList(
-            new Car( "BMW"), new Car("VW"),
-            new Car( "Reno"), new Car("AUDI"),
-            new Car( "Mercedess"), new Car("Matiz"),
-
-            );
+   /*
     private static List<Car> model=Arrays.asList(new AutomaticCar());
     */
 
