@@ -11,5 +11,6 @@ public class AliceApplication {
         aliceExplorer.getMostAppearing5Words().forEach(System.out::println);
         System.out.println("Most appearing 5 letters:\n" );
         aliceExplorer.getMostAppearing5Letters().forEach(System.out::println);
+        System.out.println("Alice appearances: " + aliceExplorer.getNumberOfAlice());
     }
 }
