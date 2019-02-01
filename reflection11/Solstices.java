@@ -35,9 +35,9 @@ public class Solstices {
         if (date.isAfter(WinterCountdown)){
             year+=1;
             if ((year % 4) == 0) {
-                WinterCountdown = LocalDate.of(22, 06, year);
+                WinterCountdown = LocalDate.of(22, 12, year);
             } else {
-                WinterCountdown = LocalDate.of(21, 06, year);
+                WinterCountdown = LocalDate.of(21, 12, year);
             }
         }
         Duration duration = Duration.between(WinterCountdown,date);
